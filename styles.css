@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+}
+#characterList {
+    max-width: 1500px;
+    margin: 0 auto; 
+}
+ .caja {
+    display: inline-block; 
+    width: 250px;
+    height: 250px;
+    background-color: bisque;
+    border: 10px solid black;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.caja img {
+    max-width: 100%;
+    height: auto;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
